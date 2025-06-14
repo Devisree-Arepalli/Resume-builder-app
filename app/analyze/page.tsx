@@ -1,5 +1,5 @@
 'use client';
-
+import '../globals.css'; // <- relative path to the CSS file
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
@@ -76,7 +76,7 @@ export default function AnalyzePage() {
 
         <div className="pt-4">
          <Button
-  className="w-full custom-b"
+  className="w-full customb"
   onClick={handleAnalyze}
 >
 

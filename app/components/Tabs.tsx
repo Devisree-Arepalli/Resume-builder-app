@@ -2,6 +2,7 @@
 
 import * as Tabs from '@radix-ui/react-tabs';
 import clsx from 'clsx';
+import { useState } from 'react';
 import PersonalInfo from '../components/PersonalInfoForm';
 import Achievements from '../components/AchievementsForm';
 import Education from '../components/EducationForm';
@@ -17,6 +18,21 @@ const tabList = [
 ];
 
 export default function ResumeTabsPage() {
+  // This is just to simulate valid state; replace with real validation
+  const [isValid, setIsValid] = useState(true);
+
+  const handleSubmit = () => {
+    // Ideally, call validation methods from each form here
+    const allFieldsValid = true; // Replace with real checks
+
+    if (allFieldsValid) {
+      alert('All sections are complete. Submitting...');
+      // You can handle API submission or routing here
+    } else {
+      alert('Please fill all fields in all sections before submitting.');
+    }
+  };
+
   return (
     <div className="w-full px-4 py-6">
       <div className="w-full max-w-5xl mx-auto">
@@ -54,6 +70,16 @@ export default function ResumeTabsPage() {
             <Tabs.Content value="skills">
               <Skills />
             </Tabs.Content>
+          </div>
+
+          {/* Submit Button */}
+          <div className="mt-6 flex justify-center">
+            <button
+              onClick={handleSubmit}
+              className="px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition"
+            >
+              Submit Resume
+            </button>
           </div>
         </Tabs.Root>
       </div>

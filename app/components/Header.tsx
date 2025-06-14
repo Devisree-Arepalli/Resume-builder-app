@@ -36,7 +36,7 @@ export default function Header() {
         {/*<header className="border-b bg-white dark:bg-gray-900 shadow-sm fixed top-[0px] left-0 w-full z-50">
          */}<div className="container mx-auto py-4 px-4 md:px-6 flex flex-col gap-4 sm:flex-row items-center justify-between">
           <h1 className="text-base sm:text-lg md:text-xl font-semibold text-center sm:text-left">
-            REESUME
+            RESUME
           </h1>
 
           {/* Buttons container - responsive wrap */}

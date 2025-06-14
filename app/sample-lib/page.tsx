@@ -1,6 +1,6 @@
 // app/components/SearchSection.tsx
 import Sidebar from "@/components/Sidebar-Res";
-import FeaturesSection1 from "@/components/FeaturesSection";
+import FeaturesSection2 from "@/components/FeatureSection2";
 export default function SearchSection() {
   return (
     <div className="w-full flex flex-col items-center mt-15 gap-6">
@@ -33,7 +33,7 @@ export default function SearchSection() {
           ))}
         </nav>
       </div>
-      <FeaturesSection1/>
+      <FeaturesSection2/>
     </div>
   );
 }

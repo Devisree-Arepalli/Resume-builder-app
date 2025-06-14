@@ -2,6 +2,7 @@
 
 import ResumeUploadPage from "../ai-next/page";
 import YourComponent from "../ai-inter/page";
+import ResumeOptionsPage from "../apple/page";
 
 export default function ai() {
 return (

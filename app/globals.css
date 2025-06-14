@@ -15,7 +15,9 @@
   background-color: #831843; /* Tailwind's bg-pink-900 */
   color: white;
 }
-
+.customb{
+  background-color: black;
+}
 .custom-b:hover {
   background-color: #1d4ed8; /* Tailwind's hover:bg-blue-700 */
 }

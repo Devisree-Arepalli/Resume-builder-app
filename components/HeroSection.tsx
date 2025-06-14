@@ -12,16 +12,7 @@ export default function HeroSection({ onLoginClick }: HeroSectionProps) {
       <div className="absolute right-4 top-[70px] z-50">
 
          
-         <div className="bg-white border border-pink-900 text-pink-900 px-5 py-2 rounded-full font-semibold text-sm transition-all duration-300 ease-in-out transform hover:bg-pink-900 hover:text-white hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-500"
-        >
-           <Link
-                  href="./Resume1"
-                  className="block px-4 py-2.5 hover:bg-gray-100 transition rounded-t-xl"
-                >
-          Resume Create
-          </Link>
-          
-</div>
+         
       </div>
 
       <h2 className="text-4xl font-bold mb-4">
